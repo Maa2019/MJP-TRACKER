@@ -2,7 +2,7 @@
    IMPORTANT: every time you re-upload index.html, change the number in
    CACHE below (v2-1 -> v2-2 -> v2-3 ...). That is what tells the phones
    an update exists. If you forget, trainers keep seeing the old app. */
-const CACHE = 'mjp-v2-1';
+const CACHE = 'mjp-v2-2';
 const FILES = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', e => {
